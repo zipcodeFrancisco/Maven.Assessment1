@@ -29,5 +29,5 @@
 * Can I message someone other than an instructor for help?
   * No.
 * What are the `Sample Script` and `Sample Output` portions of each `README`?
-  * Each `README` contains an example script which illustrates what the _output_ of calling a method with some given input.
-  * The example scripts **DO NOT** demonstrate how the methods are tested, although they allude to how they _could be_ tested.
+  * Each `README` contains sample code which illustrates what the _behavior_ of the respective method.
+  * **Refer to the tests** to have a better understanding of the behavior.
