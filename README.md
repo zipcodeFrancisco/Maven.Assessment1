@@ -1,4 +1,4 @@
-# ZipCodeWilmington Cohort 4.0 Java Assessment 1 
+# ZipCodeWilmington Assessment 1
 
 * Complete each of the asks in each of the `README.md` files found in the [instructions directory](./instructions)
     * Begin by completing section 1.
