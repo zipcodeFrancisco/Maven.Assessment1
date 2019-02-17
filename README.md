@@ -21,7 +21,7 @@
     * Finish by completing section 5.
         * [Palindrome](./instructions/part5/README-Palindrome.md)
 
-* **Frequently Asked Questions**
+## **Frequently Asked Questions**
    * Can I use content from my old labs?
       * Yes.
    * Can I use content from the web / google?
