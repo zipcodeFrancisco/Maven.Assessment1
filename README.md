@@ -1,6 +1,6 @@
 # ZipCodeWilmington Cohort 4.0 Java Assessment 1 
 
-* Complete each of the asks in each of the README.md files found in the [instructions directory](./instructions)
+* Complete each of the asks in each of the `README.md` files found in the [instructions directory](./instructions)
     * Begin by completing section 1.
         * [BasicArrayUtils](./instructions/part1/README-BasicArrayUtils.md)
         * [BasicStringUtils](./instructions/part1/README-BasicStringUtils.md)
@@ -22,6 +22,12 @@
         * [Palindrome](./instructions/part5/README-Palindrome.md)
 
 * **Frequently Asked Questions**
+   * Can I use content from my old labs?
+      * Yes.
+   * Can I use content from the web / google?
+      * Yes.
+   * Can I message someone other than an instructor for help?
+      * No.
    * What are the `Sample Script` and `Sample Output` portions of each `README`?
       * Each `README` contains an example script which illustrates what the _output_ of calling a method with some given input.
       * The example scripts **DO NOT** demonstrate how the methods are tested, although they allude to how they _could be_ tested.
