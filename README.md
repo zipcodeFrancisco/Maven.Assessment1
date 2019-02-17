@@ -1,5 +1,7 @@
 # ZipCodeWilmington Assessment 1
 
+
+## **Getting Started**
 * Complete each of the asks in each of the `README.md` files found in the [instructions directory](./instructions)
     * Begin by completing section 1.
         * [BasicArrayUtils](./instructions/part1/README-BasicArrayUtils.md)
@@ -30,4 +32,4 @@
   * No.
 * What are the `Sample Script` and `Sample Output` portions of each `README`?
   * Each `README` contains sample code which illustrates what the _behavior_ of the respective method.
-  * **Refer to the tests** to have a better understanding of the behavior.
+  * **Refer to the tests** to have a better understanding of the intended behavior.
