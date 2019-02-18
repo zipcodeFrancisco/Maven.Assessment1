@@ -16,7 +16,7 @@ public class IntegerUtils {
         Integer container = 0;
         for(int i = 0; i <= n; i++){
             container += i;
-        }
+        } 
         return container;
     }
 
