@@ -28,7 +28,7 @@
   * Yes.
 * Can I use content from the web / google?
   * Yes.
-* Can I <u>**contact**</u> someone other than an instructor for help?
+* Can I **contact** someone other than an instructor for help?
   * No.
 * What are the `Sample Script` and `Sample Output` portions of each `README`?
   * Each `README` contains sample code which illustrates what the _behavior_ of the respective method.
