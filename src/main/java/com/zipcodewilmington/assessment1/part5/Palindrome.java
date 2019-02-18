@@ -11,10 +11,10 @@ import java.util.*;
 public class Palindrome {
 
     public Integer countPalindromes(String input){
-        List<List<String>> str = substrings(input);
-        System.out.println( str );
-
-
+//        List<List<String>> str = substrings(input);
+//        System.out.println( str );
+//
+//
 
         return null;
     }
