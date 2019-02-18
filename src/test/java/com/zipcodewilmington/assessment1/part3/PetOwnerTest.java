@@ -18,6 +18,7 @@ public class PetOwnerTest {
 
         // When
         PetOwner po = new PetOwner(expectedName, expectedPet);
+
         String actualName = po.getName();
         Pet actualPet = po.getPets()[0];
 

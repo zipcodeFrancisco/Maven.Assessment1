@@ -15,6 +15,8 @@ public class CatTest {
         Integer expectedAge = 0;
         Cat cat = new Cat();
 
+        System.out.println( cat.getName() );
+
         // When
         String actualName = cat.getName();
         Integer actualAge = cat.getAge();
@@ -38,6 +40,9 @@ public class CatTest {
         String actualName = cat.getName();
         Integer actualAge = cat.getAge();
 
+        System.out.println("---" + actualName);
+        System.out.println("---" + actualAge);
+
 
         // Then
         Assert.assertEquals(expectedAge, actualAge);
@@ -56,6 +61,8 @@ public class CatTest {
         String actualName = cat.getName();
         Integer actualAge = cat.getAge();
 
+        System.out.println(" " + cat.getName());
+        System.out.println(" " + cat.getAge());
 
         // Then
         Assert.assertEquals(expectedAge, actualAge);
