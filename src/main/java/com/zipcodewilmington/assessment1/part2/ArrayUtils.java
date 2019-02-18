@@ -43,8 +43,20 @@ public class ArrayUtils {
             myObj[i] = list.get(i);
             //System.out.println( myObj[i] );
         }
-        return myObj;
+//        MultiplesDeleter.convertIntegers(list);
+
+        return MultiplesDeleter.convertIntegers(list);
     }
+
+//    public static Integer[] convertIntegers(List<Integer> integers)
+//    {
+//        Integer[] ret = new Integer[integers.size()];
+//        for (int i=0; i < ret.length; i++)
+//        {
+//            ret[i] = integers.get(i).intValue();
+//        }
+//        return ret;
+//    }
 
     /**
      * @param objectArray an array of any type of Object

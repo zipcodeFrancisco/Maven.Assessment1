@@ -20,25 +20,29 @@ public class Palindrome {
     }
 
     static List<List<String>> substrings(String input) {
+
+        // Base case: There's only one way to split up a single character
+        // string, and that is ["x"] where x is the character.
+        if (input.length() == 1)
+            return Collections.singletonList(Collections.singletonList(input));
+
+        // To hold the result
         List<List<String>> result = new ArrayList<>();
-        if (input.length() == 1) {
-            result.add(Arrays.asList(new String[]{input}));
+
+        // Recurse (since you tagged the question with recursion ;)
+        for (List<String> subresult : substrings(input.substring(1))) {
+
+            // Case: Don't split
+            List<String> l2 = new ArrayList<>(subresult);
+            l2.set(0, input.charAt(0) + l2.get(0));
+            result.add(l2);
+
+            // Case: Split
+            List<String> l = new ArrayList<>(subresult);
+            l.add(0, input.substring(0, 1));
+            result.add(l);
         }
-        else {
-            //iterate j, ja, jav, jav
-            for (int i = 0; i < input.length()-1; i++ ) {
-                String root = input.substring(0,i+1);
-                String leaf = input.substring(i+1);
-                for( List<String> strings: substrings(leaf) ) {
-                    ArrayList<String> current = new ArrayList<String>();
-                    current.add(root);
-                    current.addAll(strings);
-                    result.add(current);
-                }
-            }
-            //adds the whole string as one of the leaves (ie. java, ava, va, a)
-            result.add(Arrays.asList(new String[]{input}));
-        }
+
         return result;
     }
 
