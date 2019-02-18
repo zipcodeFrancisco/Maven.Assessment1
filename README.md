@@ -31,5 +31,5 @@
 * Can I **contact** someone other than an instructor for help?
   * No.
 * What are the `Sample Script` and `Sample Output` portions of each `README`?
-  * Each `README` contains sample code which illustrates what the _behavior_ of the respective method.
+  * Each `README` contains sample code which illustrates the _behavior_ of the respective method.
   * **Refer to the tests** to have a better understanding of the intended behavior.
