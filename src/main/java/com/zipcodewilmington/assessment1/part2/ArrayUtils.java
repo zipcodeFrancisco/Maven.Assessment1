@@ -64,12 +64,17 @@ public class ArrayUtils {
      * given an array of objects, named `objectArray` return the most frequently occuring object in the array
      */
     public static Object getMostCommon(Object[] objectArray) {
-        ArrayList<Object> myArrayList = new ArrayList<Object>();
-
+        ArrayList<Integer> myArrayList = new ArrayList<Integer>();
+        Integer c = 0;
         for (Object o : objectArray){
+            //myArrayList[c] = o;
             System.out.println( o );
+            c++;
         }
 
+        //objectArray
+
+        //return MultiplesDeleter.convertIntegers(myArrayList);
         return null;
     }
 
