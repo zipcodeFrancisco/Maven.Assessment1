@@ -41,7 +41,6 @@ public class JumperTest {
         Integer expected = jumper.jumps(16808,282475250);
         Integer actual = 16808;
         Assert.assertEquals(expected, actual);
-
     }
 
     @Test
